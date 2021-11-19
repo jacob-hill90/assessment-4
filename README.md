@@ -6,7 +6,7 @@
   - Django Front-End (50%)
   - Django Back-End (40%)
   - Code Style (10%) 
-- This assessment is worth 15% of your final grade. You need to get a 75% or better to pass. (You must pass all assessments in order to graduate Code Platoon's program.)
+- You need to get a 75% or better to pass. (You must pass all assessments in order to graduate Code Platoon's program.)
 - If you fail the assessment, you have can retake it once to improve your score. For this assessment... 
   - 5% penalty: If you complete and submit the retake within **one week** of receiving your grade. 
   - 10% penalty: If you complete and submit the retake afterwards.
@@ -18,6 +18,7 @@
 ## Requirements
 - This assessment must be completed using Django. 
 - You may use either SQLite3 or PostgreSQL for your database. (SQLite3 preferred)
+ - if you use Postgres, please provide some seed dat via Django fixtures 
 
 ## Challenge
 Everyone loves going on Craigslist to find interesting people and interesting items. The joy of Craigslist is that it doesn't upgrade itself to stay up to date with the times - it's the same old Craigslist that everyone knows and loves. The core schema has also remained relatively unchanged over the years. Today, you will build a basic Craigslist CRUD app with nested routes. We will call this site: Craigslist Junior.
