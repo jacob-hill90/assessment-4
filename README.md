@@ -27,8 +27,8 @@ Here are a list of the routes you will need to build:
 - `/categories/new`: A page with a form to create a new category
 - `/categories/<int:category_id>`: A page to view the detail of a specific category and a list of all of its associated posts (with links to those posts)
 - `/categories/<int:category_id>/edit`: A page with a form to update a specific category, **with current values filled in already**. Also include the ability to delete the specific category from here. 
-- `/categories/int<:category_id>/posts/new`: A page with a form to create a new post, **with the current category filled in already**.
-- `/categories/int<:category_id>/posts/:post_id`: A page to view the detail of a specific post. Also include the ability go back to the parent category detail page (`/categories/<int:category_id/>`).
+- `/categories/<int:category_id>/posts/new`: A page with a form to create a new post, **with the current category filled in already**.
+- `/categories/<int:category_id>/posts/:post_id`: A page to view the detail of a specific post. Also include the ability go back to the parent category detail page (`/categories/<int:category_id/>`).
 - `/categories/<int:category_id>/posts/<int:post_id>/edit`: A page with a form to update a specific post, **with current values filled in already**. Also include the ability to delete the specific post from here.
 
 Make sure your application has proper links on pages. The user should never have to type in the browser's address bar to get to pages (aside from getting to the home page). Also provide proper re-routing, i.e. for creating, updating, or deleting data... all actions should automatically redirect to another appropriate page, if successful, or display an error message if unsuccessful.
