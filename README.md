@@ -17,21 +17,21 @@
 
 ## Requirements
 - This assessment must be completed using Django. 
-- You may use either SQLite3 or PostgreSQL for your database. (SQLite3 preferred)
- - if you use Postgres, please provide some seed dat via Django fixtures 
+- You must use a PostgreSQL for your database.
+ - Make sure you provide some seed data using Django fixtures 
 
 ## Challenge
 Everyone loves going on Craigslist to find interesting people and interesting items. The joy of Craigslist is that it doesn't upgrade itself to stay up to date with the times - it's the same old Craigslist that everyone knows and loves. The core schema has also remained relatively unchanged over the years. Today, you will build a basic Craigslist CRUD app with nested routes. We will call this site: Craigslist Junior.
 
 Here are a list of the routes you will need to build:
-- `/categories`: A page listing all the categories
+- `/categories`: A welcome page that lists all of the categories (with links to the categories)
 - `/categories/new`: A page with a form to create a new category
-- `/categories/:category_id`: A page to view the detail of a specific category and a list of all of its associated posts
-- `/categories/:category_id/edit`: A page with a form to update a specific category, with current values filled in already. Also include the ability to delete the specific category here. 
-- `/categories/:category_id/posts/new`: A page with a form to create a new post, under the current category by default.
-- `/categories/:category_id/posts/:post_id`: A page to view the detail of a specific post. Also include the ability go back to the parent category detail page (`/categories/:category_id/`)
-- `/categories/:category_id/posts/:post_id/edit`: A page with a form to update a specific post, with current values filled in already. Also include the ability to delete the specific post here.
+- `/categories/<int:category_id>`: A page to view the detail of a specific category and a list of all of its associated posts (with links to those posts)
+- `/categories/<int:category_id>/edit`: A page with a form to update a specific category, **with current values filled in already**. Also include the ability to delete the specific category from here. 
+- `/categories/int<:category_id>/posts/new`: A page with a form to create a new post, **with the current category filled in already**.
+- `/categories/int<:category_id>/posts/:post_id`: A page to view the detail of a specific post. Also include the ability go back to the parent category detail page (`/categories/<int:category_id/>`).
+- `/categories/<int:category_id>/posts/<int:post_id>/edit`: A page with a form to update a specific post, **with current values filled in already**. Also include the ability to delete the specific post from here.
 
-NOTE: For creating, updating, or updating data... all actions should automatically redirect to another appropriate page, if successful, or display an error message if unsuccessful.
+Make sure your application has proper links/routing and re-routing. For creating, updating, or deleting data... all actions should automatically redirect to another appropriate page, if successful, or display an error message if unsuccessful.
 
 You do not need to style your pages (as Craigslist really doesn't make an effort to), but you should still have a nice basic visual presentation. You can earn a small bonus if you choose to add in some nice CSS styling to your front-end.  
