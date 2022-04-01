@@ -33,4 +33,6 @@ Here are a list of the routes you will need to build:
 
 Make sure your application has proper links on pages. The user should never have to type in the browser's address bar to get to pages (aside from getting to the home page). Also provide proper re-routing, i.e. for creating, updating, or deleting data... all actions should automatically redirect to another appropriate page, if successful, or display an error message if unsuccessful.
 
+Also, please make sure you supply some seed data for your project (using [Django Fixtures](https://docs.djangoproject.com/en/4.0/howto/initial-data/)).
+
 You do not need to style your pages (as Craigslist really doesn't make an effort to), but you should still have a nice basic visual presentation. You can earn a small bonus if you choose to add in some nice CSS styling to your front-end.  
