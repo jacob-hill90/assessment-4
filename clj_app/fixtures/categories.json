@@ -1,0 +1,44 @@
+[
+    {
+      "model": "clj_app.categories",
+      "pk": 1,
+      "fields": {
+        "name": "Appliances"
+      }
+    },
+    {
+      "model": "clj_app.categories",
+      "pk": 2,
+      "fields": {
+        "name": "Computers"
+      }
+    },
+    {
+      "model": "clj_app.categories",
+      "pk": 3,
+      "fields": {
+        "name": "Electronics"
+      }
+    },
+    {
+      "model": "clj_app.categories",
+      "pk": 4,
+      "fields": {
+        "name": "Free"
+      }
+    },
+    {
+      "model": "clj_app.categories",
+      "pk": 5,
+      "fields": {
+        "name": "Furniture"
+      }
+    },
+    {
+      "model": "clj_app.categories",
+      "pk": 6,
+      "fields": {
+        "name": "Tools"
+      }
+    }
+  ]
