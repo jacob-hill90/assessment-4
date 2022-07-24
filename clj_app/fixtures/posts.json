@@ -1,0 +1,200 @@
+[
+    {
+      "model": "clj_app.post",
+      "pk": 1,
+      "fields": {
+        "title": "Cuisinart Frozen Yogurt Maker",
+        "description": "Ice Cream & Sorbet Maker lets you turn ingredients into a delicious and healthy frozen treat with no fuss and no mess.",
+        "price": 40.00,
+        "seller": "Ema Krause",
+        "category": 1
+      }
+    },
+    {
+        "model": "clj_app.post",
+        "pk": 2,
+        "fields": {
+          "title": "Whirlpool Microwave",
+          "description": "Whirlpool over the stove microwave in excellent condition, like it just came out of the box. It was set up in a conference room and looks like it might have been used a hand full of times.",
+          "price": 90.00,
+          "seller": "Arwel Ware",
+          "category": 1
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 3,
+        "fields": {
+          "title": "Frigidaire Black Refrigerator",
+          "description": "Works Great - Zero issues - 2 weeks warranty provided - Pickup in NWI or I can deliver and install for small fee.",
+          "price": 225.00,
+          "seller": "Amiee Clark",
+          "category": 1
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 4,
+        "fields": {
+          "title": "Dell Monitor 22 Inch",
+          "description": "EXCELLENT SHAPE - WORKS WELL - CHORD AND STAND",
+          "price": 30.00,
+          "seller": "Joe Dominquez",
+          "category": 2
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 5,
+        "fields": {
+          "title": "Acer Desktop Computer",
+          "description": "Acer Aspire X1920 Desktop Computer Pentium E6600 - 4 GB RAM - 500 GB HDD - Small Form Factor - Windows 10 Home - DVD-Writer - Gigabit Ethernet",
+          "price": 60.00,
+          "seller": "Doris Sutton",
+          "category": 2
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 6,
+        "fields": {
+          "title": "2019 Dell Latitude 5400",
+          "description": "Like new condition Dell laptop for sale 14 inch display with backlit keyboard Barely used laptop , excellent battery life with charger included.",
+          "price": 300.00,
+          "seller": "Megan Robertson",
+          "category": 2
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 7,
+        "fields": {
+          "title": "Motorola T5620 two way radio",
+          "description": "Motorola T5620 TALKABOUT FRS/GMRS two way radio.",
+          "price": 50.00,
+          "seller": "Nazim Orr",
+          "category": 3
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 8,
+        "fields": {
+          "title": "Jukebox Rowe R-93",
+          "description": "Plays 45s - Used but Works and plays records, but needs a little tlc $200 without records",
+          "price": 220.00,
+          "seller": "Imran Jennings",
+          "category": 3
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 9,
+        "fields": {
+          "title": "Bower Wilkins 684 Speakers",
+          "description": "RARE AND HARD TO FIND CHERRTY FINISH ONE SPEAKERS TWEETER CON HAS BEEN PUSHED IN SOUND GREAT",
+          "price": 420.00,
+          "seller": "Max Delaney",
+          "category": 3
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 10,
+        "fields": {
+          "title": "Free Bench",
+          "description": "Free bench Has wood strips missing. No feet. Otherwise perfect. Enjoy this free bench. Turn it into a new bench.",
+          "price": 0.00,
+          "seller": "Klay Woodley",
+          "category": 4
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 11,
+        "fields": {
+          "title": "Free Shoe Rack",
+          "description": "Title says it all, this is a free shoe rack to keep your shoes organised",
+          "price": 0.00,
+          "seller": "Aj Jensen",
+          "category": 4
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 12,
+        "fields": {
+          "title": "Queen size bed frame",
+          "description": "Free bedframe but you will need to disassemble",
+          "price": 0.00,
+          "seller": "Josh Nash",
+          "category": 4
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 13,
+        "fields": {
+          "title": "Granite Coffee Table",
+          "description": "Incredible granite coffee table in mint condition. No nicks or scratches and currently in temperature controlled storage. Solid granite and wood (no MDF or composite material).",
+          "price": 330.00,
+          "seller": "Georgia Sheridan",
+          "category": 5
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 14,
+        "fields": {
+          "title": "Pottery Barn leather chairs",
+          "description": "A pair of Pottery Barn leather chairs in good condition. Comfy and clean. Pet free smoking free home.",
+          "price": 40.00,
+          "seller": "Robyn Kinney",
+          "category": 5
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 15,
+        "fields": {
+          "title": "Ikea Billy Bookcase",
+          "description": "One year old BILLY bookcase, white. 15 3/4x11x79 1/2. Asking $40 OBO. Cat & dying plant not included.",
+          "price": 35.00,
+          "seller": "Krystian Bowers",
+          "category": 5
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 16,
+        "fields": {
+          "title": "Benfield conduit bender with handle",
+          "description": "Will bend 3/4 EMT or 1/2 rigid, comes with three foot handle.",
+          "price": 25.00,
+          "seller": "Hazel Huff",
+          "category": 6
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 17,
+        "fields": {
+          "title": "Fluke 27 MultiMeter",
+          "description": "FLUKE 27 MULTIMETER WORKS GREAT COMES WITH LEADS",
+          "price": 75.00,
+          "seller": "Kenan Murillo",
+          "category": 6
+        }
+      },
+      {
+        "model": "clj_app.post",
+        "pk": 18,
+        "fields": {
+          "title": "6” Stanley wood plane",
+          "description": "This 6” long Stanley wood plane is in excellent working condition. Sharp blade cuts clean. $30.00 cash must pick up.",
+          "price": 30.00,
+          "seller": "David Marks",
+          "category": 6
+        }
+      }
+]

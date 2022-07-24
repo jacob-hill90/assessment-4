@@ -1,0 +1,10 @@
+{% extends 'clj_app/index.html' %}
+
+{%block content%}
+<h1>{{post.title}}</h1>
+<p>Seller: {{post.seller}}</p>
+<p>Description: {{post.description}}</p>
+<br>
+<br>
+<a href = "{% url 'edit_post' post.category_id post.id %}">EDIT THIS POST!</a>
+{% endblock %}

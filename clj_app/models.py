@@ -9,17 +9,9 @@ class Category(models.Model):
 class Post(models.Model):
     title = models.CharField(max_length = 255, blank = False)
     description = models.CharField(max_length = 255)
-    author = models.CharField(max_length = 255)
-    genre = models.ForeignKey(Post, on_delete = models.CASCADE, default = 1)
-
-    def __str__(self):
-        return self.title
-
-class Book(models.Model):
-    title = models.CharField(max_length = 255, blank = False)
-    author = models.CharField(max_length = 255)
-    description = models.CharField(max_length = 255)
-    genre = models.ForeignKey(Genre, on_delete = models.CASCADE, default = 1)
+    price = models.DecimalField(max_digits = 5, decimal_places = 2)
+    seller = models.CharField(max_length = 255)
+    category = models.ForeignKey(Category, on_delete = models.CASCADE, default = 1)
 
     def __str__(self):
         return self.title

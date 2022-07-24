@@ -57,3 +57,4 @@ Make sure your application has proper links on pages. The user should never have
 Also, please make sure you supply some seed data for your project (using [Django Fixtures](https://docs.djangoproject.com/en/4.0/howto/initial-data/)).
 
 You do not need to style your pages (as Craigslist really doesn't make an effort to), as long as your content and functionality is accessible.
+
