@@ -9,5 +9,6 @@
 
 {% endfor %}
 <br>
-<a href = "{% url 'add_post' category.id %}">ADD NEW POST</a>
+<a href = "{% url 'add_post' category.id %}">Add a Post</a>
+<a href = "{% url 'edit_category' category.id %}">Edit Category</a>
 {% endblock %}

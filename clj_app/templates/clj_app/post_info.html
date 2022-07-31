@@ -2,9 +2,10 @@
 
 {%block content%}
 <h1>{{post.title}}</h1>
-<p>Seller: {{post.seller}}</p>
 <p>Description: {{post.description}}</p>
+<p>Price: ${{post.price}}</p>
+<p>Contact: {{post.seller}}</p>
 <br>
 <br>
-<a href = "{% url 'edit_post' post.category_id post.id %}">EDIT THIS POST!</a>
+<a href = "{% url 'edit_post' post.category_id post.id %}">Edit This Post</a>
 {% endblock %}
